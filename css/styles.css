@@ -2,6 +2,10 @@
   margin-top: 20px;
 }
 
+#surveycolumn {
+  margin-left: 35%;
+}
+
 #cSharp {
   display: none;
 }
