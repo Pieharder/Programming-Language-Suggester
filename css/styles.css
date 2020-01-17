@@ -6,6 +6,32 @@
   margin-left: 35%;
 }
 
+#jumbo-background {
+  background-image: url(../img/code.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.form-control {
+  background-color: black;
+  color: white;
+}
+
+option {
+  color: aquamarine;
+}
+
+label {
+  color: rgb(48, 255, 41);
+}
+body {
+  background-color: black;
+}
+
+#jumbo-text {
+  color: rgb(215, 255, 217);
+}
+
 #cSharp {
   display: none;
 }
@@ -23,5 +49,9 @@
 }
 
 #or {
+  display: none;
+}
+
+#cPlusPlus {
   display: none;
 }

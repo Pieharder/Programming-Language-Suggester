@@ -15,23 +15,36 @@ $(document).ready(function(){
       $("#cplusplus").hide();
     } else if (osChoice === "4" || coolingChoice === "1") {
       $("#javaScript").hide();
+      $("#or").hide();
       $("#cSharp").hide();
       $("#python").show();
       $("#cplusplus").hide();
     } else if (osChoice === "3" || cpuChoice === "2" || gpuChoice === "3") {
       $("#javaScript").hide();
+      $("#or").hide();
       $("#cSharp").hide();
       $("#python").show();
       $("#cplusplus").hide();
     } else if (coolingChoice === "2" || osChoice !== "2", "3") {
       $("#javaScript").hide();
+      $("#or").hide();
       $("#cSharp").hide();
       $("#python").hide();
       $("#cplusplus").show();
     } else if (colorChoice === "1", "2", "3", "4" ) {
+      $("#javaScript").hide();
+      $("#or").hide();
+      $("#cSharp").hide();
+      $("#python").hide();
+      $("#cplusplus").hide();
       $("#allTheAbove").show();
-  } else {
+    } else {
+    $("#javaScript").hide();
+    $("#or").hide();
+    $("#cSharp").hide();
+    $("#python").hide();
+    $("#cplusplus").hide();
     $("#allTheAbove").show();
-  }
+    }
   });
 });
