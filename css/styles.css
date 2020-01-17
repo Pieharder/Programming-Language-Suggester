@@ -7,8 +7,9 @@
 }
 
 #jumbo-background {
-  background-image: url(../img/code.jpg);
+  background-image: url(../img/cpu.jpg);
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -25,11 +26,13 @@ label {
   color: rgb(48, 255, 41);
 }
 body {
+  background-image: url(../img/background1.jpg);
+  background-repeat: no-repeat;
   background-color: black;
 }
 
 #jumbo-text {
-  color: rgb(215, 255, 217);
+  color: rgb(82, 45, 45);
 }
 
 #cSharp {
