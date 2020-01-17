@@ -1,31 +1,52 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link href= "css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.4.1.js"></script>
-    <script src="js/scripts.js"></script>
-    <title>Programming Language Suggester</title>
-  </head>
-  <body>
-    <div class="container">
-      <h1>What Programming Language is right for you?</h1>
-      <form id="languageChoices">
-        <label for="languageOptions">Choose a language:</label>
-        <select class="form-control" id="languages">
-          <option>C#</option>
-          <option>JavaScript</option>
-          <option>Python</option>
-          <!-- <option>Ruby</option>
+
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Programming Language Suggester</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>What Programming Language is right for you?</h1>
+    <div class="row">
+      <div class="col-md-4">
+        <form id="languageChoices">
+          <label for="languageOptions">Choose a language you would like to learn:</label>
+          <select class="form-control" id="languages">
+            <option>C#</option>
+            <option>JavaScript</option>
+            <option>Python</option>
+            <!-- <option>Ruby</option>
           <option>SQL</option> -->
+          </select>
+          <label id="favColor">What is your favorite color?</label>
           <div class="radio">
             <label>
-              <input type="radio" name="color" value="">
+              <input type="radio" name="favoriteColor" value="Red">
               Red
             </label>
-        </select>
-      </form>
-    </div> <!--CONTAINER END-->
-  </body>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="favoriteColor" value="Green">
+              Green
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="favoriteColor" value="Blue">
+              Blue
+            </label>
+          </div class="radio">
+        </form>
+      </div>
+    </div>
+  </div>
+  <!--CONTAINER END-->
+</body>
 
 </html>
