@@ -11,10 +11,10 @@ $(document).ready(function(){
       $("#cSharp").show();
       $("#javaScript").hide();
       $("#python").hide();
-    } else {
-    $("#javaScript").show();
+    } else if (osChoice === "4") {
+    $("#javaScript").hide();
     $("#cSharp").hide();
-    $("#python").hide();
+    $("#python").show();
   }
   });
 });
