@@ -16,46 +16,31 @@
     </div>
     <div class="row">
       <div id="surveycolumn" class="col-md-3">
-        <div class="radio">
-          <label>
-            <input type="radio" name="flavor" value="chocolate" checked>
-            Chocolate
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="flavor" value="vanilla">
-            Vanilla
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="flavor" value="cookiesandcream">
-            Cookies & Cream
-          </label>
-        </div>
+        <form id="languageChoices">
+          <label for="languages">Choose an Operating System:</label>
+          <select class="form-control" id="os">
+            <option>Windows</option>
+            <option>Apple</option>
+            <option>Linux</option>
+          </select>
           <label for="favColor">What is your favorite color:</label>
           <select class="form-control" id="favColors">
-            <option>No Preference</option>
             <option>Red</option>
             <option>Green</option>
             <option>Blue</option>
           </select>
           <label for="processor">CPU Brand:</label>
           <select class="form-control" id="processor">
-            <option>No Preference</optionvalue="1">
             <option>AMD</option>
             <option>Intel</option>
           </select>
           <label for="graphics">GPU Brand:</label>
           <select class="form-control" id="graphics">
-            <option>No Preference</option>
             <option>Nvidia</option>
             <option>Radeon</option>
           </select>
           <label for="cooling">System Cooling:</label>
           <select class="form-control" id="cooling">
-            <option>No Preference</option>
             <option>Water Cooling</option>
             <option>Air Cooling</option>
           </select>
@@ -74,8 +59,8 @@
       <div class="col-md-3">
       </div>
       <div class="col-md-6">
-        <div class="well" id="responseWell">
-          <div class="response">
+        <div class="well" id="response">
+          <div class="results">
             <div id="cSharp">
               <h3>C Sharp is a good fit!</h3>
             </div>
@@ -88,9 +73,9 @@
           </div>
         </div>
       </div>
+      <div class="col-md-3">
+      </div>
     </div>
-  </div>
-  <!--CONTAINER END-->
 </body>
 
 </html>

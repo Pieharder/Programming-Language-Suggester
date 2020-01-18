@@ -36,7 +36,7 @@ body {
   color: rgb(223, 244, 248);
 }
 
-.response {
+.results {
 color: whitesmoke;
 text-align: center;
 }
@@ -54,17 +54,5 @@ text-align: center;
 }
 
 #python {
-  display: none;
-}
-
-#allTheAbove {
-  display: none;
-}
-
-#or {
-  display: none;
-}
-
-#cPlusPlus {
   display: none;
 }
