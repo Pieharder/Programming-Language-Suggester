@@ -16,19 +16,29 @@
     </div>
     <div class="row">
       <div id="surveycolumn" class="col-md-3">
-        <form id="languageChoices">
-          <label for="languages">Choose an Operating System:</label>
-          <select class="form-control" id="os">
-            <option>No Preference</optionvalue="1">
-            <option>Windows</option>
-            <option>Apple</option>
-            <option>Linux</option>
-          </select>
+        <div class="radio">
+          <label>
+            <input type="radio" name="flavor" value="chocolate" checked>
+            Chocolate
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="flavor" value="vanilla">
+            Vanilla
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="flavor" value="cookiesandcream">
+            Cookies & Cream
+          </label>
+        </div>
           <label for="favColor">What is your favorite color:</label>
           <select class="form-control" id="favColors">
             <option>No Preference</option>
             <option>Red</option>
-            <option >Green</option>
+            <option>Green</option>
             <option>Blue</option>
           </select>
           <label for="processor">CPU Brand:</label>
@@ -52,7 +62,8 @@
           <div class="row">
             <div class="col-md-8">
               <div class="container" id="formButton">
-                <button type="submit" class=" btn btn-success">Calculate Results!</button><button id="formReset" type="reset" class=" btn btn-danger">Start Over!</button>
+                <button type="submit" class=" btn btn-success">Calculate Results!</button><button id="formReset"
+                  type="reset" class=" btn btn-danger">Start Over!</button>
               </div>
             </div>
           </div>
@@ -63,31 +74,23 @@
       <div class="col-md-3">
       </div>
       <div class="col-md-6">
-      <div class="well" id="responseWell">
-        <div class="response">
-          <div id="cSharp">
-            <h3>C Sharp is a good fit!</h3>
-          </div>
-          <div id="or">
-            <h3>or</h3>
-          </div>
-          <div id="javaScript">
-            <h3>JavaScript is always great!</h3>
-          </div>
-          <div id="python">
-            <h3>Python is just right!</h3>
-          </div>
-          <div id="cPlusPlus">
-            <h3>C++ might be your cup of tea!</h3>
-          </div>
-          <div id="allTheAbove">
-            <h3>You know,at the end of the day it comes down to personal preference. All of them are pretty great!</h3>
+        <div class="well" id="responseWell">
+          <div class="response">
+            <div id="cSharp">
+              <h3>C Sharp is a good fit!</h3>
+            </div>
+            <div id="javaScript">
+              <h3>JavaScript is always great!</h3>
+            </div>
+            <div id="python">
+              <h3>Python is just right!</h3>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  </div>  <!--CONTAINER END-->
+  <!--CONTAINER END-->
 </body>
 
 </html>
