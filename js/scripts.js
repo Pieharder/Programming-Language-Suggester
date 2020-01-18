@@ -1,50 +1,64 @@
-$(document).ready(function(){
+$(document).ready(function() {
   $("form#languageChoices").submit(function(event) {
     event.preventDefault();
-    var osChoice = $("#os").val();
-    var colorChoice = $("#favColors").val();
     var cpuChoice = $("#processor").val();
     var gpuChoice = $("#graphics").val();
     var coolingChoice = $("#cooling").val();
 
-    if (osChoice === "1" || osChoice === "2" && cpuChoice === "1", "3" && gpuChoice === "1", "2" ) {
+    if ((osChoice === "No Preference") || (osChoice === "Windows" && cpuChoice === "No Preference", "Intel" + gpuChoice === "No Preference" + "Nvidia")) {
       $("#cSharp").show();
       $("#or").show();
       $("#javaScript").show();
       $("#python").hide();
-      $("#cplusplus").hide();
-    } else if (osChoice === "4" || coolingChoice === "1") {
+      $("#cPlusPlus").hide();
+    } else if ((osChoice === "Linux") || (coolingChoice === "No Preference")) {
       $("#javaScript").hide();
       $("#or").hide();
       $("#cSharp").hide();
       $("#python").show();
-      $("#cplusplus").hide();
-    } else if (osChoice === "3" || cpuChoice === "2" || gpuChoice === "3") {
+      $("#cPlusPlus").hide();
+    }
+    var osChoice = $("#os").val();
+    if ((osChoice === "Apple")
       $("#javaScript").hide();
       $("#or").hide();
       $("#cSharp").hide();
       $("#python").show();
-      $("#cplusplus").hide();
-    } else if (coolingChoice === "2" || osChoice !== "2", "3") {
+      $("#cPlusPlus").hide();
+    } else (osChoice === "Windows" || "Linux" || "No Preference")
       $("#javaScript").hide();
       $("#or").hide();
       $("#cSharp").hide();
       $("#python").hide();
-      $("#cplusplus").show();
-    } else if (colorChoice === "1", "2", "3", "4" ) {
+      $("#cPlusPlus").show();
+
+
+    var colorChoice = $("#favColors").val(); 
+    if (colorChoice === "No Preference") {
       $("#javaScript").hide();
       $("#or").hide();
       $("#cSharp").hide();
       $("#python").hide();
-      $("#cplusplus").hide();
-      $("#allTheAbove").show();
-    } else {
+      $("#cPlusPlus").show();
+      $("#allTheAbove").hide();
+    } else  (colorChoice === "Red" || "Blue" || "Green")
+      $("#javaScript").hide();
+      $("#or").hide();
+      $("#cSharp").hide();
+      $("#python").hide();
+      $("#cPlusPlus").show();
+      $("#allTheAbove").hide();
+
+
+
+
+  });
+  $("#formReset").click(function() {
     $("#javaScript").hide();
     $("#or").hide();
     $("#cSharp").hide();
     $("#python").hide();
-    $("#cplusplus").hide();
-    $("#allTheAbove").show();
-    }
+    $("#cPlusPlus").hide();
+    $("#allTheAbove").hide();
   });
 });
