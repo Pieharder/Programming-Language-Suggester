@@ -10,8 +10,8 @@ _Here in contains the a programming language suggester made by Geoff Goetz. With
 
 ## Setup/Installation Requirements
 
-* _First, clone this repository to your desktop by navigating to the desktop in the Terminal ("cd desktop") and then entering "git clone" followed by the link to this repository(in the address bar of your web browser)._
-* _Once the directory is cloned to your desktop, open the directory in the Terminal ("cd [repository name here])._
+* _First, clone this repository to your desktop by navigating to the desktop in the Terminal ("cd desktop") and then entering "git clone https://github.com/Pieharder/Programming-Language-Suggester"._
+* _Once the directory is cloned to your desktop, open the directory in the Terminal ("cd Programming-Language-Suggester)._
 * _After that open the directory in Visual Studio Code by entering the command "code ." in the Terminal._
 * _Open index.html in a browser of your choice.(Google Chrome is recomended.)_
 
