@@ -14,7 +14,7 @@ $(document).ready(function () {
       $("#cSharp").hide();
       $("#javaScript").show();
       $("#python").hide();
-    } else if ((cpuChoice === "AMD") || (gpuChoice === Nvidia)) {
+    } else if ((cpuChoice === "AMD") || (gpuChoice === "Nvidia")) {
       $("#javaScript").hide();
       $("#cSharp").hide();
       $("#python").show();

@@ -6,12 +6,12 @@
 
 ## Description
 
-_Here in contains the a programming language suggester made by Geoff Goetz. Within you will find a professionally displayed webpage with several form drop downs offering an array of options to choose various likes and disklikes in an attempt to help the user discover a good coding language for them.</a>_
+_Here in contains the a programming language suggester made by Geoff Goetz. Within you will find a professionally displayed webpage with several form drop downs offering an array of options to choose various likes and disklikes in an attempt to help the user discover a good coding language for them._
 
 ## Setup/Installation Requirements
 
 * _First, clone this repository to your desktop by navigating to the desktop in the Terminal ("cd desktop") and then entering "git clone" followed by the link to this repository(in the address bar of your web browser)._
-* _Once the directory is cloned to your desktop, open the directory in the Terminal ("cd [repository name here]).
+* _Once the directory is cloned to your desktop, open the directory in the Terminal ("cd [repository name here])._
 * _After that open the directory in Visual Studio Code by entering the command "code ." in the Terminal._
 * _Open index.html in a browser of your choice.(Google Chrome is recomended.)_
 
